@@ -351,11 +351,11 @@ with tab_live:
         rtc_configuration=RTC_CONFIGURATION,
         media_stream_constraints={
     "video": {
-        "width": {"exact": 1920},
-        "height": {"exact": 1080},
+        "width": {"ideal": 1920},
+        "height": {"ideal": 1080},
     },
     "audio": False,
-},
+}
     )
     st.caption(
         f"Inference runs every {LIVE_INFER_EVERY_N_FRAMES} frames to keep the video smooth. "
