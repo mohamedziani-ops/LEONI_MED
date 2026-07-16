@@ -1,0 +1,7 @@
+streamlit==1.38.0
+tensorflow-cpu==2.16.1
+opencv-python-headless==4.10.0.84
+streamlit-webrtc>=0.47.0,<0.48
+av>=11.0.0,<13.0.0
+pillow==10.4.0
+numpy==1.26.4
